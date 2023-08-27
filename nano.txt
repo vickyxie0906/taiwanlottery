@@ -1,0 +1,26 @@
+pip list 灌了什麼套件
+requirements.txt 專案在虛擬環境下記錄套件文字檔
+pip freeze > requirements.txt 存下載套件文字檔
+pip install -r requirements.txt 安裝下載套件
+pip uninstall requires 移除requires套件
+pip install --upgrade pip 更新套件
+where python
+python --version python1版本
+python -m venv venv01 建立虛擬環境 要先切換到要放的路徑cd
+點選環境選擇 -> Enter interpreter path -> Find -> Env -> venv01 ->scripts ->python.exe -> 確定有選到虛擬環境後 ->安裝下載套件
+
+cd scripts -> python --version -> pip list -> deactive 跳出-> activate
+git rm --cached -r __pycach__ 取消追蹤資料夾
+git rm --cached nano.txt 取消追蹤檔案
+git --version
+git config --list
+git config --global user.name" "
+git config --global user.email" "
+git init 資料庫初始化
+git status git狀態
+git add 檔案 放到暫存區
+git commit -m" " 提交
+git push 同步
+git remote -v 顯示遠端數據庫的 URL(打開git網頁)
+.gitignore 不要上傳
+cls 清空
